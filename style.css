@@ -70,3 +70,18 @@ li {
 h2 {
   margin: 10px 0 25px;
 }
+.card-content {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.card-content img {
+  width: 90%;
+  border-radius: 5px;
+  box-shadow: -3px 3px 10px 3px #242323;
+}
+.card-content p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+  overflow: hidden;
+}
